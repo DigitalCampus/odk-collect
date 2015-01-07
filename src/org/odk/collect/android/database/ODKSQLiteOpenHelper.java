@@ -21,7 +21,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteException;
 import android.os.Environment;
 import android.util.Log;
-import org.odk.collect.android.R;
+import org.digitalcampus.odk.collect.R;
 import org.odk.collect.android.application.Collect;
 
 

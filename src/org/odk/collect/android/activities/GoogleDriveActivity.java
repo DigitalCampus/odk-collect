@@ -33,7 +33,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
-import org.odk.collect.android.R;
+import org.digitalcampus.odk.collect.R;
 import org.odk.collect.android.adapters.FileArrayAdapter;
 import org.odk.collect.android.application.Collect;
 import org.odk.collect.android.listeners.GoogleDriveFormDownloadListener;

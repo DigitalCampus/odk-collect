@@ -14,7 +14,7 @@
 
 package org.odk.collect.android.utilities;
 
-import org.odk.collect.android.R;
+import org.digitalcampus.odk.collect.R;
 
 import android.content.Context;
 import android.database.Cursor;

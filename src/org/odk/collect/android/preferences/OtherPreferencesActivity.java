@@ -14,7 +14,7 @@
 
 package org.odk.collect.android.preferences;
 
-import org.odk.collect.android.R;
+import org.digitalcampus.odk.collect.R;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
