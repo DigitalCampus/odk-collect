@@ -331,4 +331,30 @@
 <string name="no_blank_search">Search field cannot be blank.</string>
 <string name="select_maps_account">You have selected Google Maps Engine as your server, please select a corresponding Google Account in the General Settings before continuing</string>
 <string name="get_project_IDs">Getting Project IDs</string>
+
+<!-- For Ethiopian EDD Calculator -->
+<string name="lmp_label">LMP entered was:</string>
+<string name="edd_label">Expected Delivery Date:</string>
+<string name="gestational_age_label">Gestational Age:</string>
+<string name="gestational_age_none">--</string>
+<string name="gestational_age_weeks">%d weeks</string>
+
+<!-- For ANC appointment date calculator -->
+<string name="anc_appt_calc_lmpfuture">Future date of LMP entered, please go back and change to a valid date</string>
+<string name="anc_appt_calc_lmptoday">Todays date entered as LMP, please go back and change to a valid date</string>
+<string name="anc_appt_calc_follow2">ANC Follow Up 2</string>
+<string name="anc_appt_calc_follow3">ANC Follow Up 3</string>
+<string name="anc_appt_calc_follow4">ANC Follow Up 4</string>
+<string name="anc_appt_calc_lmptooclose">Too close to delivery date</string>
+
+<!-- For PNC appointment date calculator -->
+<string name="pnc_appt_calc_deliveryfuture">Future date of delivery entered, please go back and change to a valid date</string>
+<string name="pnc_calc_deliverytoday">Todays date entered as delivery date, please go back and change to a valid date</string>
+<string name="pnc_appt_calc_follow2">PNC Follow Up 2</string>
+<string name="pnc_appt_calc_follow3">PNC Follow Up 3</string>
+<string name="pnc_appt_calc_end">All the recommended PNC visits have been completed</string>
+
+<string name="appt_calc_from">due between:</string>
+<string name="appt_calc_to">and</string>
+<string name="appt_calc_gregorian">(%1$s and %2$s)</string>
 </resources>

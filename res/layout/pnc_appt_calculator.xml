@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:textSize="25sp"
+				android:layout_marginLeft="5dp" 
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="2dp" 
+				android:textStyle="normal"
+				android:id="@+id/visitName"/>
+		
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:textSize="20sp"
+				android:layout_marginLeft="5dp" 
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="2dp"
+				android:textStyle="normal"
+				android:text="@string/appt_calc_from"
+				android:id="@+id/appt_calc_from"/>
+					
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:textSize="25sp"
+				android:layout_marginLeft="5dp" 
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="2dp"
+				android:textStyle="normal"
+				android:id="@+id/startEthiopic"/>
+
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:textSize="20sp"
+				android:layout_marginLeft="5dp" 
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="2dp"
+				android:textStyle="normal"
+				android:text="@string/appt_calc_to"
+				android:id="@+id/appt_calc_to"/>
+				
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:textSize="25sp"
+				android:layout_marginLeft="5dp" 
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="2dp" 
+				android:textStyle="normal"
+				android:id="@+id/endEthiopic"/>
+	
+	<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center"
+				android:layout_margin="5dp" 
+				android:textSize="15sp"
+				android:id="@+id/startGregorian"/>
+				
+</LinearLayout>

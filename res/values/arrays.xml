@@ -74,4 +74,20 @@
         <item>@string/form_processing_logic_2</item>
         <item>@string/form_processing_logic_3</item>
     </string-array>
+    <string-array 
+		name="tigrinyan_months">
+		<item>Meskerem</item>
+		<item>Tikimti</item>
+		<item>Hidar</item>
+		<item>Tahsas</item>
+		<item>Tiri</item>
+		<item>Yekatit</item>
+		<item>Megabit</item>
+		<item>Miazia</item>
+		<item>Gunbet</item>
+		<item>Sene</item>
+		<item>Hamle</item>
+		<item>Nehase</item>
+		<item>Pagumein</item>
+	</string-array>
 </resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+    <!-- LMP -->
+    <RelativeLayout android:layout_height="wrap_content"
+	    		android:layout_width="fill_parent"
+				android:layout_margin="5dp" 
+				android:background="@drawable/border">
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="20sp"
+					android:layout_margin="5dp" 
+					android:textStyle="normal"
+					android:id="@+id/lmpLabel"
+					android:text="@string/lmp_label"/>
+					
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="20sp"
+					android:layout_margin="5dp" 
+					android:id="@+id/lmpEthiopic"
+					android:layout_below="@+id/lmpLabel"/>
+	
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="15sp"
+					android:id="@+id/lmpGregorian"
+					android:layout_below="@+id/lmpEthiopic"/>
+	</RelativeLayout>
+				
+	<!-- EDD -->
+	<RelativeLayout android:layout_height="wrap_content"
+	    		android:layout_width="fill_parent"
+				android:layout_margin="5dp" 
+				android:background="@drawable/border">
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="20sp"
+					android:textStyle="normal"
+					android:layout_margin="5dp" 
+					android:id="@+id/eddLabel"
+					android:text="@string/edd_label"/>
+					
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="30sp"
+					android:layout_margin="5dp" 
+					android:id="@+id/eddEthiopic"
+					android:layout_below="@+id/eddLabel"/>
+					
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:gravity="center"
+					android:textSize="15sp"
+					android:id="@+id/eddGregorian"
+					android:layout_below="@+id/eddEthiopic"/>
+	</RelativeLayout>
+		
+	<!-- Gestational Age -->
+	<RelativeLayout android:layout_height="wrap_content"
+	    		android:layout_width="fill_parent"
+				android:layout_margin="5dp" 
+				android:background="@drawable/border">
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:gravity="center"
+					android:textSize="20sp"
+					android:textStyle="normal"
+					android:layout_margin="5dp" 
+					android:id="@+id/gestationalAgeLabel"
+					android:text="@string/gestational_age_label"/>
+		
+		<TextView android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:gravity="center"
+					android:textSize="30sp"
+					android:id="@+id/gestationalAge"
+					android:text="@string/gestational_age_none"
+					android:layout_below="@+id/gestationalAgeLabel"/>
+	</RelativeLayout>
+</LinearLayout>
