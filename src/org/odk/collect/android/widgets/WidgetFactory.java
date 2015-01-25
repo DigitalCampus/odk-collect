@@ -52,8 +52,21 @@ public class WidgetFactory {
                         questionWidget = new DateTimeWidget(context, fep);
                         break;
                     case Constants.DATATYPE_DATE:
-                        questionWidget = new DateWidget(context, fep);
+                        String dateAppearance = "gregorian";
+                        dateAppearance = fep.getQuestion().getAppearanceAttr();
+                        if(dateAppearance != null && (dateAppearance.toLowerCase().equals("ethiopicdate") || dateAppearance.toLowerCase().equals("ethiopian"))){
+                                questionWidget = new EthiopianDateWidget(context, fep);
+                        } else if(dateAppearance != null && dateAppearance.toLowerCase().equals("ethiopicedd")){
+                                questionWidget = new EthiopicEDDWidget(context, fep);
+                        } else if(dateAppearance != null && dateAppearance.toLowerCase().equals("ancapptcalculator")){
+                                questionWidget = new ANCApptDateWidget(context, fep);
+                        } else if(dateAppearance != null && dateAppearance.toLowerCase().equals("pncapptcalculator")){
+                                questionWidget = new PNCApptDateWidget(context, fep);
+                        } else {
+                                questionWidget = new DateWidget(context, fep);
+                        }
                         break;
+
                     case Constants.DATATYPE_TIME:
                         questionWidget = new TimeWidget(context, fep);
                         break;
